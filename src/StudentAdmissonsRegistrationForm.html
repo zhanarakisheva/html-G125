@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <style>
+        table {
+            border-spacing: 20px;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tbody>
+    <tr>
+        <td>Имя:</td>
+        <td><label>
+            <input type="text">
+        </label></td>
+    </tr>
+    <tr>
+        <td>Фамилия:</td>
+        <td><label>
+            <input type="text">
+        </label></td>
+    </tr>
+    <tr>
+        <td>Отчество:</td>
+        <td><label>
+            <input type="text">
+        </label></td>
+    </tr>
+    <tr>
+        <td>Родной город:</td>
+        <td>
+            <label>
+                <select>
+                   <option>Алматы</option>
+                    <option>Семей</option>
+                    <option>Астана</option>
+                </select>
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <td>Пол:</td>
+        <td>
+            <input type="radio" id="gender1" name="gender" value="male"checked>
+            <label for="gender1">Мужской</label><br>
+            <input type="radio" id="gender2" name="gender" value="female">
+            <label for="gender2">Женский</label><br>
+        </td>
+    </tr>
+    <tr>
+        <td>Образование:</td>
+        <td>
+            <label>
+                <select>
+                    <option>РФМШ г.Алматы</option>
+                    <option>ШГ 113</option>
+                </select>
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <td>Баллы ЕНТ:</td>
+        <td>
+            <label>
+                <input type="number" value="0">
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="button" value="Зарегистрировать">
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
